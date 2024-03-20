@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background_image.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .anime-hero, .anime-villain {
+    text-align: center;
+  }
+  
+  .hero-image img, .villain-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .versus {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('eren-yeager-0_1683116765004_1699096955528.avif'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
